@@ -1,0 +1,9 @@
+aws_region = "us-east-2"
+project_name = "dlcsftp"
+vpc_cidr = "10.123.0.0/16"
+public_cidr = "10.123.1.0/24"
+accessip = "0.0.0.0/0"
+key_name = "tf_key"
+public_key_path = "/home/devans/.ssh/id_rsa.pub"
+server_instance_type = "t2.micro"
+instance_count = 2
